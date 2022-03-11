@@ -10,10 +10,6 @@ variable "env" {
   description = "Environment of the app"
   default     = "prod"
 }
-variable "ami" {
-  description = "AWS AMI to be used"
-  default     = "ami-04505e74c0741db8d"
-}
 variable "instance_type" {
   description = "AWS Instance type defines the hardware config of the machine"
   default     = "t2.micro"
